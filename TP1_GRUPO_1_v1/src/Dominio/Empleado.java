@@ -7,6 +7,8 @@ public class Empleado extends Persona {
 	// Variable static
 	static int cont = 1000;
 	
+	//Constructores
+	
 	public String getPuesto() {
 		return puesto;
 	}
