@@ -12,5 +12,7 @@ public class Persona {
 	private String direccion;
 	private	String telefono;
 	private String email;
+	
+	//comentario de prueba
 
 }
