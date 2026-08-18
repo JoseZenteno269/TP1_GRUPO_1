@@ -3,7 +3,7 @@ package Dominio;
 public class Empleado extends Persona {
 	private final int legajo;
 	private String puesto;
-	
+	s;
 	static int cont = 1000;
 	
 	public String getPuesto() {
