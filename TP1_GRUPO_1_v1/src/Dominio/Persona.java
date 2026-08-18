@@ -13,6 +13,5 @@ public class Persona {
 	private	String telefono;
 	private String email;
 	
-	//comentario de pruebaa
-
+	//comentario de prueba
 }
