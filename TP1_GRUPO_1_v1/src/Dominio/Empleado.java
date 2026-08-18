@@ -1,17 +1,11 @@
 package Dominio;
 
 public class Empleado extends Persona {
-	private int legajo;
+	private final int legajo;
 	private String puesto;
-
-	public int getLegajo() {
-		return legajo;
-	}
-
-	public void setLegajo(int legajo) {
-		this.legajo = legajo;
-	}
-
+	
+	static int cont = 1000;
+	
 	public String getPuesto() {
 		return puesto;
 	}
@@ -22,6 +16,6 @@ public class Empleado extends Persona {
 
 	@Override
 	public String toString() {
-	    return "Empleado [legajo=" + legajo + ", puesto=" + puesto + "]";
+	    return " es el empleado con legajo = " + legajo + ", con el puesto de " + puesto;
 	}
 }

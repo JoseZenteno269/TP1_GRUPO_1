@@ -67,9 +67,9 @@ public class Persona {
 	// METODO TO STRING 
 	@Override
 	public String toString() {
-		return "Persona [dni=" + dni + ", nombre=" + nombre + ", apellido=" + apellido + ", fechaNacimiento="
-				+ fechaNacimiento + ", genero=" + genero + ", direccion=" + direccion + ", telefono=" + telefono
-				+ ", email=" + email + "]";
+		return " La persona de DNI..: " + dni + ", con nombre..: " + nombre + " " + apellido + ", con fecha de nacimiento "
+				+ fechaNacimiento + ", genero " + genero + ", direccion " + direccion + ", telefono " + telefono
+				+ ", email " + email;
 	}
 	
 	
