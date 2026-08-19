@@ -1,7 +1,7 @@
 package Dominio;
 
 public class Empleado extends Persona {
-	private final int legajo;
+	private final int legajo = 0000;
 	private String puesto;
 	
 	// Variable static
