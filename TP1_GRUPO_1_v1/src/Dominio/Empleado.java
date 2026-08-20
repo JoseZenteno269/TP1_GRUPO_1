@@ -7,27 +7,29 @@ public class Empleado extends Persona {
 	private String puesto;
 	
 	// Variable static
-	static int cont = 1000;
+	private static int cont = 1000;
 	
 	//Constructors
 	
 	public Empleado()
 	{
 		super();
-		legajo = cont++;
+		legajo = cont;
+		cont++; 
 		puesto = " Sin Puesto! ";
 	}
 	
 	public Empleado(String dni, String nombre, String apellido, LocalDate fechaNacimiento, String genero, String direccion, String telefono, String email, String puesto)
 	{
 		super(dni,nombre,apellido,fechaNacimiento,genero,direccion,telefono,email);
-		this.legajo = cont++;
+		this.legajo = cont;
+		cont++; 
 		this.puesto = puesto;
 	}
 	
 	//metodos
 	public static int devuelveProximoLegajo() {
-		return cont++;
+		return cont;
 	}
 	
 	
