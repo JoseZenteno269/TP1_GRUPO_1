@@ -3,7 +3,7 @@ package Dominio;
 import java.time.LocalDate;
 
 public class Empleado extends Persona {
-	private final int legajo = 0000;
+	private final int legajo;
 	private String puesto;
 	
 	// Variable static
@@ -14,15 +14,21 @@ public class Empleado extends Persona {
 	public Empleado()
 	{
 		super();
+		legajo = cont++;
 		puesto = " Sin Puesto! ";
 	}
 	
 	public Empleado(String dni, String nombre, String apellido, LocalDate fechaNacimiento, String genero, String direccion, String telefono, String email, String puesto)
 	{
 		super(dni,nombre,apellido,fechaNacimiento,genero,direccion,telefono,email);
+		this.legajo = cont++;
 		this.puesto = puesto;
 	}
 	
+	//metodos
+	public static int devuelveProximoLegajo() {
+		return cont+1;
+	}
 	
 	// setter y getter
 	
