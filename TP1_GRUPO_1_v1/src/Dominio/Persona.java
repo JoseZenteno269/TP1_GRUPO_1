@@ -88,14 +88,13 @@ public class Persona {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	////////////////////////////////
+	
 	
 	// METODO TO STRING 
 	@Override
 	public String toString() {
-		return " La persona de DNI..: " + dni + ", con nombre..: " + nombre + " " + apellido + ", con fecha de nacimiento "
-				+ fechaNacimiento + ", genero " + genero + ", direccion " + direccion + ", telefono " + telefono
-				+ ", email " + email;
+		return String.format("DNI: %s - Nombre: %s - Apellido: %s - Fecha de Nacimiento: %s - Genero: %s - Direccion: %s - Telefono: %s - Email: %s", 
+				dni, nombre, apellido, fechaNacimiento, genero, direccion, telefono, email); 
 	}
 	
 }
