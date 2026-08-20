@@ -42,6 +42,6 @@ public class Empleado extends Persona {
 
 	@Override
 	public String toString() {
-	    return " es el empleado con legajo = " + legajo + ", con el puesto de " + puesto;
+		return super.toString() + ", es el empleado con legajo = " + legajo + ", con el puesto de " + puesto;
 	}
 }
