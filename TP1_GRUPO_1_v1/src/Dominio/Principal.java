@@ -44,5 +44,6 @@ public class Principal {
 		System.out.println(emp3.toString());
 		System.out.println(emp4.toString());
 		System.out.println(emp5.toString());
+		System.out.println("El proximó Legajo es:"+Empleado.devuelveProximoLegajo());
 	}
 }

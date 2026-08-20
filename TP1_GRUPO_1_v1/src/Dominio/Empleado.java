@@ -27,8 +27,9 @@ public class Empleado extends Persona {
 	
 	//metodos
 	public static int devuelveProximoLegajo() {
-		return cont+1;
+		return cont++;
 	}
+	
 	
 	// setter y getter
 	
