@@ -20,30 +20,30 @@ public class Principal {
 		
 		System.out.println("El proximó Legajo es: " + Empleado.devuelveProximoLegajo());
 		
-		Empleado emp4 = new Empleado();
-		emp4.setDni("40.123.456");
-		emp4.setNombre("Lucia");
-		emp4.setApellido("Fernandez");
-		emp4.setFechaNacimiento(LocalDate.of(1997, 3, 14));
-		emp4.setGenero("Femenino");
-		emp4.setDireccion("Av. Rivadavia 2450");
-		emp4.setTelefono("11-4567-8901");
-		emp4.setEmail("lucia.fernandez@utnfrgp.com");
-		emp4.setPuesto("Analista administrativa");
+		Empleado emp3 = new Empleado();
+		emp3.setDni("40.123.456");
+		emp3.setNombre("Lucia");
+		emp3.setApellido("Fernandez");
+		emp3.setFechaNacimiento(LocalDate.of(1997, 3, 14));
+		emp3.setGenero("Femenino");
+		emp3.setDireccion("Av. Rivadavia 2450");
+		emp3.setTelefono("11-4567-8901");
+		emp3.setEmail("lucia.fernandez@utnfrgp.com");
+		emp3.setPuesto("Analista administrativa");
 
-		Empleado emp5 = new Empleado();
-		emp5.setDni("38.765.432");
-		emp5.setNombre("Martin");
-		emp5.setApellido("Gomez");
-		emp5.setFechaNacimiento(LocalDate.of(1994, 8, 22));
-		emp5.setGenero("Masculino");
-		emp5.setDireccion("Calle Moreno 875");
-		emp5.setTelefono("11-4321-6789");
-		emp5.setEmail("martin.gomez@utnfrgp.com");
-		emp5.setPuesto("Soporte tecnico");
+		Empleado emp4 = new Empleado();
+		emp4.setDni("38.765.432");
+		emp4.setNombre("Martin");
+		emp4.setApellido("Gomez");
+		emp4.setFechaNacimiento(LocalDate.of(1994, 8, 22));
+		emp4.setGenero("Masculino");
+		emp4.setDireccion("Calle Moreno 875");
+		emp4.setTelefono("11-4321-6789");
+		emp4.setEmail("martin.gomez@utnfrgp.com");
+		emp4.setPuesto("Soporte tecnico");
 		
+		System.out.println(emp3.toString());
 		System.out.println(emp4.toString());
-		System.out.println(emp5.toString());
 		
 		System.out.println("El proximó Legajo es: " + Empleado.devuelveProximoLegajo());
 	}
